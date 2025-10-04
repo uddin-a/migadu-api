@@ -1,0 +1,17 @@
+/src
+/node_modules
+/__test__
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+.env.template
+
+.env
+.DS_Store
+
+tsconfig.json
+tsdown.config.ts
+
+
+*.bundle

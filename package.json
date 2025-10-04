@@ -1,0 +1,62 @@
+{
+  "name": "migadu-api",
+  "version": "1.0.0",
+  "description": "A TypeScript client for the Migadu mail server API, providing a comprehensive interface to manage domains, mailboxes, aliases, and more.",
+  "author": {
+    "name": "Abdus UDDIN",
+    "url": "https://github.com/uddin-a"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/uddin-a/migadu-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uddin-a/migadu-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uddin-a/migadu-api/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "dotenv": "^17.2.2",
+    "tsdown": "latest",
+    "vitest": "^3.2.4"
+  },
+  "keywords": [
+    "migadu",
+    "migadu api",
+    "migadu api client",
+    "migadu js",
+    "migadu-js",
+    "migadu ts",
+    "migadu-ts",
+    "migadu client",
+    "migadu-client",
+    "email",
+    "api",
+    "mail",
+    "mail server",
+    "typescript",
+    "client",
+    "npm",
+    "library"
+  ]
+}
